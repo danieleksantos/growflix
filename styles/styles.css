@@ -2,6 +2,11 @@
     background: url(../assets/images/banner-initial.png) center top / cover no-repeat fixed;
 }
 
+.banner-home {
+    background: url(../assets/images/growcast-01.png) center top / cover no-repeat;
+    min-height: 720px;
+}
+
 .btn-netflix {
     background-color: #e50914;
     color: #ffffff;
@@ -37,4 +42,9 @@
 
 .accordion-button::after {
     background-image: url(../assets/images/add.svg) !important;
+}
+
+.row-home-growcast {
+    align-items: flex-end;
+    min-height: 680px;
 }
