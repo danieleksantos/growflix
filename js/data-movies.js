@@ -1,4 +1,4 @@
-const movies = [
+export const movies = [
     {
         img: "https://img.youtube.com/vi/U1syO2g_qjw/sddefault.jpg",
         title: "Como elaborar um currículo profissional de impacto",
@@ -6,6 +6,32 @@ const movies = [
         category: "Diversos",
         featuread: true,
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/U1syO2g_qjw?si=hjHCJuCHHQPYBPX-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+    },
+    {
+        "img": "https://img.youtube.com/vi/1LzD5zkgQKo/sddefault.jpg",
+        "title": "Descomplicando o Front‑End: Segredos para Criar Interfaces que Funcionam",
+        "link": "https://www.youtube.com/embed/1LzD5zkgQKo",
+        "category": "Diversos",
+        "featuread": false,
+        "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/1LzD5zkgQKo\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+
+    {
+        "img": "https://img.youtube.com/vi/393aD8C6dS8/sddefault.jpg",
+        "title": "Técnicas Avançadas de Prompts de IA Generativa para Profissionais de TI | Webinar Completo",
+        "link": "https://www.youtube.com/embed/393aD8C6dS8",
+        "category": "Diversos",
+        "featuread": false,
+        "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/393aD8C6dS8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+
+    {
+        "img": "https://img.youtube.com/vi/aDjAUFUTBsw/sddefault.jpg",
+        "title": "Autopercepção – O caminho para uma carreira alinhada aos seus valores",
+        "link": "https://www.youtube.com/embed/aDjAUFUTBsw",
+        "category": "Diversos",
+        "featuread": false,
+        "iframe": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/aDjAUFUTBsw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
     },
 
     {
@@ -226,13 +252,4 @@ const movies = [
         featuread: false,
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/DfVhbfbubAE?si=h-HMmp5Bn5Ex-M3h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
-    {
-        img: "https://img.youtube.com/vi/ggB0fVqVobs/sddefault.jpg",
-        title: "Growcast #13 | Elas no mundo Tech - com Danielle Cosme",
-        link: "https://www.youtube.com/embed/ggB0fVqVobs",
-        category: "Growcast [Episódios]",
-        featuread: false,
-        iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ggB0fVqVobs?si=h-HMmp5Bn5Ex-M3h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
-    },
-
 ];

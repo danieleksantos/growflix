@@ -48,3 +48,60 @@
     align-items: flex-end;
     min-height: 680px;
 }
+
+.link-growdev {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.link-growdev:hover {
+  color: #ff8534;
+}
+
+.detail-movie {
+  color: white;
+  margin-left: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.detail-movie svg {
+  margin: 10px;
+}
+
+.item-hover {
+  transition: all 0.5s ease-out;
+}
+
+.item-hover:hover {
+  margin-top: -20px;
+  position: absolute;
+  width: 350px;
+  background-color: #000000;
+  padding-bottom: 20px;
+}
+
+.item-hover:hover .detail-movie {
+  display: block;
+}
+
+.detail-hover {
+  margin-top: 20px;
+  position: absolute;
+  width: 350px;
+  background-color: #000000;
+  padding-bottom: 20px;
+}
+
+.modal-content-movie {
+  background-color: transparent;
+}
+
+.modal-header-movie {
+  border-bottom: none;
+}
+
+.col-movie {
+  min-height: 230px;
+}
