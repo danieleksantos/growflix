@@ -21,7 +21,7 @@ function renderItems(element, items) {
         element.innerHTML += `
             <div class="col-12 col-sm-6 col-md-3 col-movie">
                 <div class="item-hover">
-                    <img src="${item.img}" alt="" class="img-fluid">
+                    <img src="${item.img}" alt="Imagem ilustrativa para ${item.title}" class="img-fluid">
                         <p class="detail-movie" data-link="${item.link}" onclick="openMovie(this)">
                             <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="white" class="bi bi-play-circle" viewBox="0 0 16 16">
                                 <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
